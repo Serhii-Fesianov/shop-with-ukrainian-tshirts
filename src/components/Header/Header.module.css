@@ -1,0 +1,230 @@
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  padding: 0 20px;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+@media only screen and (min-width: 768px) {
+  .headerContainer {
+    height: 100px;
+    padding: 0 40px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .headerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 25.4px;
+    height: 120px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .headerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 30px;
+    height: 120px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .headerContainer {
+    height: 132px;
+    padding: 0 60px;
+  }
+}
+
+.wrapperForNav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-family: 'Kulim Park', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.7;
+  text-transform: uppercase;
+  color: #000;
+}
+
+@media only screen and (min-width: 1440px) {
+  .logo {
+    font-size: 32px;
+  }
+}
+
+.navList {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .navList {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 85px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .navList {
+    margin-left: 120px;
+    gap: 28px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .navList {
+    width: 481px;
+    gap: 40px;
+    margin-left: 140px;
+  }
+}
+
+.navItem {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1440px) {
+  .navItem {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .navItem {
+    font-size: 18px;
+  }
+}
+
+.listIcons {
+  display: none;
+  width: 204px;
+  height: 40px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .listIcons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.itemIconSearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 22px 0 0;
+}
+
+@media only screen and (min-width: 1440px) {
+  .itemIconSearch {
+    margin: 0 35px 0 0;
+  }
+}
+
+.itemIconUser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0 22px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .itemIconUser {
+    margin: 0 0 0 38px;
+  }
+}
+
+.itemIconBasket {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0 18.4px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .itemIconBasket {
+    margin: 0 0 0 33px;
+  }
+}
+
+.IconsToNavSearch {
+  width: 19px;
+  height: 23px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .IconsToNavSearch {
+    width: 26px;
+    height: 30px;
+  }
+}
+
+.IconsToNavPerson {
+  width: 22px;
+  height: 26px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .IconsToNavPerson {
+    width: 28px;
+    height: 30px;
+  }
+}
+
+.IconsToNavBasket {
+  width: 28px;
+  height: 23px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .IconsToNavBasket {
+    height: 30px;
+  }
+}
+
+.itemVector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vector {
+  width: 2px;
+  height: 24px;
+  background-color: #d9d9d9;
+}
+
+@media only screen and (min-width: 1440px) {
+  .vector {
+    height: 30px;
+  }
+}
+
+.active {
+  color: var(--accent-color);
+}

@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css2?family=Jost:wght@100..900&family=Kulim+Park:wght@700&display=swap);
+
+
+:root {
+  --main-color: #000;
+  --accent-color: #fc0000;
+  --white-color: #fff;
+}
+
+body {
+  /* font-family: Jost, sans-serif; */
+  font-family: Kulim Park, sans-serif;
+  font-weight: 400;
+  color: var(--main-color);
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,27 @@
+.wrapperBurger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 1024px) {
+  .wrapperBurger {
+    display: none;
+  }
+}
+
+.burgerMenuButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  width: 36px;
+  padding: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+  .burgerMenuButton {
+    display: none;
+  }
+}

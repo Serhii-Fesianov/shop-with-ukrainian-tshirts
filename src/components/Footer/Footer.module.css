@@ -1,0 +1,14 @@
+.footerSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1b1c;
+  color: var(--white-color);
+  padding: 40px 0;
+}
+
+.logo {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.7;
+}

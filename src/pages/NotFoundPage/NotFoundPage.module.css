@@ -1,0 +1,44 @@
+.wrap {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.image {
+  width: 75%;
+}
+
+.title {
+  font-family: Kyiv;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.7;
+  text-transform: uppercase;
+  color: #fea418;
+  margin: 6px 28px;
+}
+
+.backBtn {
+  font-family: Kyiv;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.7;
+  text-transform: uppercase;
+  color: var(--white-color);
+  background-color: #c02121;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width:768px){
+  
+.title {
+  font-size: 100px;
+  margin: 16px;
+
+}
+
+.backBtn {
+  font-size: 24px;
+  padding: 15px 20px;
+}
+}

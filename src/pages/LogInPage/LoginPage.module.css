@@ -1,0 +1,551 @@
+.boxForWrappers {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (min-width: 1440px) {
+  .boxForWrappers {
+    margin-top: 11%;
+    margin-bottom: 21%;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 56px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .boxForWrappers {
+    margin-top: 10.58%;
+    margin-bottom: 24.21%;
+  }
+}
+
+.wraperFormAuth {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .wraperFormAuth {
+    margin-bottom: 54px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .wraperFormAuth {
+    margin-right: 137px;
+    margin-bottom: 0;
+  }
+}
+
+.rectigleStyles {
+  display: none;
+}
+
+@media only screen and (min-width: 1440px) {
+  .rectigleStyles {
+    display: block;
+    width: 1px;
+    height: 354px;
+    background-color: #d9d9d9;
+  }
+}
+
+.titleLogin {
+  font-family: 'Kulim Park', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.7;
+  text-transform: uppercase;
+  color: #000;
+  margin-top: 55px;
+  margin-bottom: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .titleLogin {
+    margin-top: 100px;
+    margin-bottom: 23px;
+    font-size: 47px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .titleLogin {
+    font-size: 62px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .titleLogin {
+    font-size: 36px;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .titleLogin {
+    font-size: 48px;
+    margin-bottom: 39px;
+  }
+}
+
+.registerText {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 2.7;
+  color: #131415;
+  margin-bottom: 9px;
+}
+
+@media only screen and (min-width: 768px) {
+  .registerText {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .registerText {
+    font-size: 23px;
+    line-height: 1.33333;
+    margin-bottom: 14px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .registerText {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .registerText {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+}
+
+.navLinkRegister {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.79px solid #c7031b;
+  border-radius: 8px;
+  padding: 12px 15px;
+  width: 322px;
+  height: 46px;
+  font-family: 'Kulim Park', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.7;
+  text-transform: uppercase;
+  color: #000;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .navLinkRegister {
+    border-radius: 15px;
+    padding: 24px 30px;
+    width: 582px;
+    height: 70px;
+    font-weight: 600;
+    font-size: 18.52px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .navLinkRegister {
+    border-radius: 15px;
+    padding: 24px 30px;
+    width: 776px;
+    height: 93px;
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .navLinkRegister {
+    border: 1px solid #c7031b;
+    border-radius: 10px;
+    padding: 16px 20px;
+    width: 400px;
+    height: 59px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .navLinkRegister {
+    width: 520px;
+    height: 66px;
+    font-size: 20px;
+  }
+}
+
+.inputStyles {
+  border: 1px solid #969696;
+  border-radius: 14px;
+  padding: 12px 16px;
+  width: 320px;
+  height: 48px;
+  font-family: 'Kulim Park', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.7;
+  text-transform: capitalize;
+  color: #969696;
+}
+
+@media only screen and (min-width: 768px) {
+  .inputStyles {
+    border: 1.25px solid #969696;
+    border-radius: 17.44px;
+    padding: 15px 20px;
+    width: 582px;
+    height: 59px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .inputStyles {
+    border: 1.66px solid #969696;
+    border-radius: 23px;
+    padding: 19px 26px;
+    width: 776px;
+    height: 78px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .inputStyles {
+    border: 1px solid #969696;
+    border-radius: 14px;
+    padding: 12px 16px;
+    width: 380px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #969696;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .inputStyles {
+    padding: 18px 16px;
+    width: 426px;
+    height: 63px;
+  }
+}
+
+.boxInputs {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  margin-bottom: 6px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .boxInputs {
+    gap: 24px;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .boxInputs {
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .boxInputs {
+    gap: 26px;
+    margin-bottom: 26px;
+  }
+}
+
+.boxNavToRegister {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 13.5%;
+  margin-top: 45px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .boxNavToRegister {
+    margin-bottom: 12.6%;
+    margin-top: 56px;
+    flex-wrap: wrap;
+    width: 776px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .boxNavToRegister {
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-wrap: nowrap;
+    width: 481px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .boxNavToRegister {
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-wrap: nowrap;
+    width: 640px;
+  }
+}
+
+.boxCheckboxAndLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .boxCheckboxAndLink {
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .boxCheckboxAndLink {
+    margin-bottom: 26px;
+    width: 320px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .boxCheckboxAndLink {
+    width: 426px;
+    margin-bottom: 30px;
+  }
+}
+
+.restorationLink {
+  margin-left: 44px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 3.6;
+  color: #c7031b;
+}
+
+@media only screen and (min-width: 768px) {
+  .restorationLink {
+    font-size: 16.53px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .restorationLink {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .restorationLink {
+    margin-left: 44px;
+    font-size: 11px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .restorationLink {
+    margin-left: 59px;
+    font-size: 15px;
+  }
+}
+
+.buttonLogin {
+  font-family: 'Kulim Park', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.7;
+  text-transform: capitalize;
+  color: #fff;
+  background-color: rgba(192, 33, 33, 0.68);
+  border-radius: 8px;
+  padding: 13px 16px;
+  width: 322px;
+  height: 49px;
+  border: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .buttonLogin {
+    border-radius: 12px;
+    padding: 20px 25px;
+    width: 582px;
+    height: 74px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .buttonLogin {
+    border-radius: 16px;
+    padding: 25px 32px;
+    width: 776px;
+    height: 98px;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .buttonLogin {
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 16px 20px;
+    width: 380px;
+    height: 59px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .buttonLogin {
+    width: 423px;
+  }
+}
+
+.textRememberData {
+  margin-left: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 3.6;
+  color: #131415;
+}
+
+@media only screen and (min-width: 768px) {
+  .textRememberData {
+    width: 100%;
+    margin-left: 10px;
+    font-size: 16.53px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .textRememberData {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .textRememberData {
+    margin-left: 5px;
+    font-size: 11px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .textRememberData {
+    margin-left: 7px;
+    font-size: 15px;
+  }
+}
+
+.boxLabel {
+  display: flex;
+  flex-direction: row;
+}
+
+.mobileRectigleStyles {
+  width: 322px;
+  height: 1px;
+  background-color: #d9d9d9;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobileRectigleStyles {
+    width: 582px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .mobileRectigleStyles {
+    display: none;
+  }
+}
+
+.tabletRectigleStyles {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .tabletRectigleStyles {
+    display: block;
+    height: 2px;
+    width: 776px;
+    background-color: #d9d9d9;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .tabletRectigleStyles {
+    display: none;
+  }
+}
+
+.titleLoginPageRegister {
+  font-family: 'Kulim Park', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #000;
+}
+
+@media only screen and (min-width: 768px) {
+  .titleLoginPageRegister {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .titleLoginPageRegister {
+    font-size: 47px;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .titleLoginPageRegister {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .titleLoginPageRegister {
+    font-size: 44px;
+    margin-bottom: 50px;
+  }
+}

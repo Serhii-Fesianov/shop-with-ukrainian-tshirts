@@ -1,0 +1,49 @@
+.list {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  object-fit: contain;
+  width: 100%;
+}
+
+.title {
+  z-index: 2;
+  position: absolute;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.7;
+  color: var(--white-color);
+}
+
+.womanTitle {
+  top: 30px;
+  left: 30px;
+}
+
+.menTitle {
+  bottom: 30px;
+  right: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .item {
+    width: calc((100% - 10px) / 2);
+  }
+
+  .title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title {
+    font-size: 48px;
+  }
+}

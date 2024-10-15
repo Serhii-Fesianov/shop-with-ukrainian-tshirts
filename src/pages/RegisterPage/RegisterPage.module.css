@@ -1,0 +1,495 @@
+.wraperRegisterPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+@media only screen and (min-width: 1440px) {
+  .wraperRegisterPage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .wraperRegisterPage {
+    display: flex;
+    flex-direction: row;
+    gap: 132px;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+/* //////////////\\\\\\\\\\\\\\ */
+
+.boxForImageRight {
+  content: url(/images/backgroundImageRegister/leftBackground.png);
+  display: none;
+}
+
+@media only screen and (min-width: 1440px) {
+  .boxForImageRight {
+    display: block;
+    width: 273px;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .boxForImageRight {
+    width: 364px;
+    height: auto;
+  }
+}
+
+.boxForImageLeft {
+  content: url(/images/backgroundImageRegister/rightBackground.png);
+  display: none;
+}
+
+@media only screen and (min-width: 1440px) {
+  .boxForImageLeft {
+    display: block;
+    width: 273px;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .boxForImageLeft {
+    width: 364px;
+    height: auto;
+  }
+}
+
+.boxForImageBottom {
+  content: url(../../../public/images/backgroundImageRegister/bottomBackground.png);
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .boxForImageBottom {
+    display: none;
+  }
+}
+
+.boxForImageBottomTablet {
+  content: url(../../../public/images/backgroundImageRegister/bottomTabletImage.png);
+  width: 100%;
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .boxForImageBottomTablet {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .boxForImageBottomTablet {
+    display: none;
+  }
+}
+
+/* //////////////\\\\\\\\\\\\\\ */
+
+.titleregister {
+  font-family: 'Kulim Park', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.7;
+  text-transform: uppercase;
+  color: #000;
+  margin-top: 55px;
+  margin-bottom: 18px;
+}
+
+@media only screen and (min-width: 768px) {
+  .titleregister {
+    margin-top: 100px;
+    margin-bottom: 36px;
+    font-size: 48px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .titleregister {
+    margin-top: 75px;
+    margin-bottom: 48px;
+    font-size: 64px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .titleregister {
+    margin-top: 0;
+    margin-bottom: 26px;
+    font-size: 36px;
+    margin-bottom: 26px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .titleregister {
+    font-size: 48px;
+    margin-bottom: 34px;
+  }
+}
+
+/* //////////////\\\\\\\\\\\\\\ */
+
+.wrapperForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 375px) {
+  .wrapperForm {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .wrapperForm {
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .wrapperForm {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+}
+
+/* //////////////\\\\\\\\\\\\\\ */
+
+.inputsStyle {
+  border: 0.74px solid #969696;
+  border-radius: 10px;
+  padding: 13px 11px;
+  width: 310px;
+  height: 47px;
+}
+
+@media only screen and (min-width: 768px) {
+  .inputsStyle {
+    border: 0.86px solid #969696;
+    border-radius: 11.5px;
+    padding: 16px 14px;
+    width: 486px;
+    height: 59px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .inputsStyle {
+    border: 1.15px solid #969696;
+    border-radius: 15px;
+    padding: 21px 18px;
+    width: 647px;
+    height: 78px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .inputsStyle {
+    border: 0.75px solid #969696;
+    padding: 14px 12px;
+    width: 315px;
+    height: 48px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .inputsStyle {
+    border: 1px solid #969696;
+    border-radius: 14px;
+    padding: 18px 16px;
+    width: 420px;
+    height: 63px;
+  }
+}
+
+/* //////////////\\\\\\\\\\\\\\ */
+
+.listInputsLeft {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .listInputsLeft {
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .listInputsLeft {
+    gap: 32px;
+    margin-right: 32px;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .listInputsLeft {
+    gap: 32px;
+    margin-right: 44px;
+  }
+}
+
+.listInputsRight {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  list-style: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .listInputsRight {
+    gap: 24px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .listInputsRight {
+    gap: 32px;
+    margin-left: 32px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .listInputsRight {
+    margin-left: 44px;
+  }
+}
+
+/* //////////////\\\\\\\\\\\\\\ */
+
+.boxLabel {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 239px;
+  margin-left: 7px;
+  margin-bottom: 29px;
+}
+
+@media only screen and (min-width: 768px) {
+  .boxLabel {
+    margin-left: 0;
+    align-items: flex-start;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .boxLabel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+    width: 648px;
+    margin-left: 0;
+    margin-top: 4px;
+    margin-bottom: 44px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .boxLabel {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .boxLabel {
+    margin-top: 16px;
+  }
+}
+
+/* //////////////\\\\\\\\\\\\\\ */
+
+.textagree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 7px;
+  line-height: 1.6;
+  color: #131415;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .textagree {
+    justify-content: flex-start;
+    flex-direction: row;
+    font-size: 13.5px;
+    line-height: 3.49473;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .textagree {
+    flex-direction: row;
+    font-size: 18.3px;
+    gap: 8.28px;
+    line-height: 3.49473;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .textagree {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 10px;
+    gap: 6px;
+    line-height: 3.49473;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .textagree {
+    font-size: 15px;
+    line-height: 3.6;
+    width: 616px;
+    flex-direction: row;
+  }
+}
+
+/* //////////////\\\\\\\\\\\\\\ */
+
+.registerButton {
+  border-radius: 8px;
+  padding: 8px 10px;
+  width: 311px;
+  height: 50px;
+  border: none;
+  background-color: rgba(192, 33, 33, 0.68);
+  font-family: 'Kulim Park', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.7;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 58px;
+}
+
+@media only screen and (min-width: 768px) {
+  .registerButton {
+    border-radius: 8px;
+    padding: 12px 15px;
+    width: 486px;
+    height: 59px;
+    font-weight: 600;
+    font-size: 19px;
+    margin-bottom: 92px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .registerButton {
+    border-radius: 10px;
+    padding: 16px 20px;
+    width: 648px;
+    height: 79px;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 92px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .registerButton {
+    border-radius: 7px;
+    padding: 12px 15px;
+    width: 436px;
+    height: 55px;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 36px;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .registerButton {
+    border-radius: 10px;
+    padding: 16px 20px;
+    width: 582px;
+    height: 73px;
+    font-size: 24px;
+    margin-top: 50px;
+  }
+}
+
+/* //////////////\\\\\\\\\\\\\\ */
+
+.boxLabelAndButton {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 13px;
+}
+
+@media only screen and (min-width: 768px) {
+  .boxLabelAndButton {
+    margin-top: 4px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .boxLabelAndButton {
+    flex-direction: row;
+    width: 648px;
+  }
+}
+/* //////////////\\\\\\\\\\\\\\ */
+
+.formStyles {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .formStyles {
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .formStyles {
+    align-items: center;
+  }
+}
+
+.checkBoxRegister {
+  margin-top: 0;
+}
