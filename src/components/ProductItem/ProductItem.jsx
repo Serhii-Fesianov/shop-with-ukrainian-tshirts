@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import styles from './ProductItem.module.css';
 
 export default function ProductItem({ item }) {
-  const { id, name, price, thumbnail, Images_to_product } = item;
+  const { id, name, price, Images_to_product } = item;
 
   const dispatch = useDispatch();
 

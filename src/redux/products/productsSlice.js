@@ -1,5 +1,5 @@
-import { createSlice } from '@reduxjs/toolkit'
-import { fetchProducts } from './operations'
+import { createSlice } from '@reduxjs/toolkit';
+import { fetchProducts } from './operations';
 
 const productSlice = createSlice({
   name: 'products',
@@ -10,19 +10,20 @@ const productSlice = createSlice({
   },
   extraReducers: builder => {
     builder
-    .addCase(fetchProducts.pending, (state, action) => {
-      state.loading = true
-      state.error = false
-    })
-    .addCase(fetchProducts.fulfilled, (state, action) => {
-      state.loading = false
-      state.error = false
-      state.items = action.payload
-    })
-    .addCase(fetchProducts.rejected, (state, action) => {
-      state.loading = false 
-      state.error = true
-  })}
-})
+      .addCase(fetchProducts.pending, state => {
+        state.loading = true;
+        state.error = false;
+      })
+      .addCase(fetchProducts.fulfilled, (state, action) => {
+        state.loading = false;
+        state.error = false;
+        state.items = action.payload;
+      })
+      .addCase(fetchProducts.rejected, state => {
+        state.loading = false;
+        state.error = true;
+      });
+  },
+});
 
-export default productSlice.reducer
+export default productSlice.reducer;
