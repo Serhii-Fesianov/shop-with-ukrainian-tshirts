@@ -1,8 +1,9 @@
 {
-  "name": "shop",
+  "name": "shop-with-ukrainian-tshirts",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Serhii-Fesianov.github.io/shop-with-ukrainian-tshirts/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
