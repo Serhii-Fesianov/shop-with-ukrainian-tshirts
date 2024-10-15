@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import PropTypes from 'prop-types';
 
 import { fetchProducts } from '../../redux/products/operations.js';
 import ProductItem from '../ProductItem/ProductItem';
@@ -31,3 +32,7 @@ export default function ProductList({ gender }) {
     </section>
   );
 }
+
+ProductList.propTypes = {
+  gender: PropTypes.string.isRequired,
+};

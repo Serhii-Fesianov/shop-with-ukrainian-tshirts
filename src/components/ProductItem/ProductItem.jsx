@@ -1,6 +1,7 @@
 import { useDispatch } from 'react-redux';
 import sprite from '../../../public/svg/sprite.svg';
 import { addToCart } from '../../redux/cart/cartSlice.js';
+import PropTypes from 'prop-types';
 import styles from './ProductItem.module.css';
 
 export default function ProductItem({ item }) {
@@ -41,3 +42,17 @@ export default function ProductItem({ item }) {
     </li>
   );
 }
+
+ProductItem.propTypes = {
+  item: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    name: PropTypes.string.isRequired,
+    price: PropTypes.number.isRequired,
+    thumbnail: PropTypes.string.isRequired,
+    Images_to_product: PropTypes.arrayOf(
+      PropTypes.shape({
+        Url_to_photo: PropTypes.string.isRequired,
+      })
+    ),
+  }).isRequired,
+};

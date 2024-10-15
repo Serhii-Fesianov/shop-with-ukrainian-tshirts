@@ -1,5 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { removeFromCart } from '../../redux/cart/cartSlice.js';
+import PropTypes from 'prop-types';
 import styles from './CartItem.module.css';
 
 export default function CartItem({ item }) {
@@ -50,3 +51,14 @@ export default function CartItem({ item }) {
     </li>
   );
 }
+
+CartItem.propTypes = {
+  item: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    title: PropTypes.string.isRequired,
+    thumbnail: PropTypes.string.isRequired,
+    price: PropTypes.shape({
+      final: PropTypes.number.isRequired,
+    }).isRequired,
+  }).isRequired,
+};
