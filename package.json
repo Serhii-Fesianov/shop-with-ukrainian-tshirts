@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "lint:js": "eslint . --ext js,jsx"  // Додав відсутній скрипт для лінтингу
+    "lint:js": "eslint . --ext js,jsx"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.6.0",
@@ -33,7 +33,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
     "vite": "^5.2.0",
-    "rimraf": "^4.0.0",  // Оновлено rimraf
-    "glob": "^9.3.5"  // Оновлено glob
+    "rimraf": "^4.0.0",
+    "glob": "^9.3.5"
   }
 }
